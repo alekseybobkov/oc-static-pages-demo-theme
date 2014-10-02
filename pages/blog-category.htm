@@ -1,0 +1,20 @@
+title = "Blog category"
+url = "/blog-category/:slug/:page?"
+layout = "static-layout"
+
+[blogPosts]
+pageParam = ":page"
+categoryFilter = ":slug"
+postsPerPage = "3"
+noPostsMessage = "No posts found"
+categoryPage = "blog-category"
+postPage = "blog-category"
+==
+<?php
+function onInit()
+{
+    $this['activeMenuItem'] = 'blog';
+}
+?>
+==
+{% component 'blogPosts' %}

@@ -1,0 +1,7 @@
+name: 'Blog categories'
+items:
+    -
+        title: Categories
+        type: all-blog-categories
+        cmsPage: blog-category
+        replace: '1'

@@ -1,0 +1,16 @@
+name: 'Main menu - left'
+items:
+    -
+        title: 'All pages'
+        nesting: ''
+        type: all-static-pages
+        url: ''
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: '1'
+    -
+        title: Blog
+        type: url
+        url: /blog
+        code: blog

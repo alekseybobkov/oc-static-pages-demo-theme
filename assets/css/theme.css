@@ -1,0 +1,26 @@
+body {
+    padding: 20px 0;
+}
+
+.sidebar {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #f7f7f9;
+}
+
+.sidebar h4 {
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+ul.post-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 180%;
+}
